@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75FB6B58302E1B4000FE5E9C /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FB6B57302E1B3F00FE5E9C /* UniformTypeIdentifiers.framework */; };
+		75FB6B64302E1B4000FE5E9C /* BulutFileProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75FB6B55302E1B3F00FE5E9C /* BulutFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75FB6B32302E167D00FE5E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FB6B19302E167B00FE5E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FB6B20302E167B00FE5E9C;
+			remoteInfo = iPhoneBulutDosya;
+		};
+		75FB6B3C302E167D00FE5E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FB6B19302E167B00FE5E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FB6B20302E167B00FE5E9C;
+			remoteInfo = iPhoneBulutDosya;
+		};
+		75FB6B62302E1B4000FE5E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FB6B19302E167B00FE5E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FB6B54302E1B3F00FE5E9C;
+			remoteInfo = BulutFileProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75FB6B69302E1B4000FE5E9C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75FB6B64302E1B4000FE5E9C /* BulutFileProvider.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75FB6B21302E167B00FE5E9C /* iPhoneBulutDosya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneBulutDosya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FB6B31302E167D00FE5E9C /* iPhoneBulutDosyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneBulutDosyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FB6B3B302E167D00FE5E9C /* iPhoneBulutDosyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneBulutDosyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FB6B55302E1B3F00FE5E9C /* BulutFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BulutFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FB6B57302E1B3F00FE5E9C /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		75FB6B65302E1B4000FE5E9C /* Exceptions for "BulutFileProvider" folder in "BulutFileProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 75FB6B54302E1B3F00FE5E9C /* BulutFileProvider */;
+		};
+		75FB6B6B302E1C0300FE5E9C /* Exceptions for "iPhoneBulutDosya" folder in "BulutFileProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIServisi.swift,
+			);
+			target = 75FB6B54302E1B3F00FE5E9C /* BulutFileProvider */;
+		};
+		75FB6B74302E1E1400FE5E9C /* Exceptions for "BulutFileProvider" folder in "iPhoneBulutDosya" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FileProviderYoneticisi.swift,
+			);
+			target = 75FB6B20302E167B00FE5E9C /* iPhoneBulutDosya */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		75FB6B23302E167B00FE5E9C /* iPhoneBulutDosya */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75FB6B6B302E1C0300FE5E9C /* Exceptions for "iPhoneBulutDosya" folder in "BulutFileProvider" target */,
+			);
+			path = iPhoneBulutDosya;
+			sourceTree = "<group>";
+		};
+		75FB6B34302E167D00FE5E9C /* iPhoneBulutDosyaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneBulutDosyaTests;
+			sourceTree = "<group>";
+		};
+		75FB6B3E302E167D00FE5E9C /* iPhoneBulutDosyaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneBulutDosyaUITests;
+			sourceTree = "<group>";
+		};
+		75FB6B59302E1B4000FE5E9C /* BulutFileProvider */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75FB6B74302E1E1400FE5E9C /* Exceptions for "BulutFileProvider" folder in "iPhoneBulutDosya" target */,
+				75FB6B65302E1B4000FE5E9C /* Exceptions for "BulutFileProvider" folder in "BulutFileProvider" target */,
+			);
+			path = BulutFileProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FB6B1E302E167B00FE5E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B2E302E167D00FE5E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B38302E167D00FE5E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B52302E1B3F00FE5E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FB6B58302E1B4000FE5E9C /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FB6B18302E167B00FE5E9C = {
+			isa = PBXGroup;
+			children = (
+				75FB6B23302E167B00FE5E9C /* iPhoneBulutDosya */,
+				75FB6B34302E167D00FE5E9C /* iPhoneBulutDosyaTests */,
+				75FB6B3E302E167D00FE5E9C /* iPhoneBulutDosyaUITests */,
+				75FB6B59302E1B4000FE5E9C /* BulutFileProvider */,
+				75FB6B56302E1B3F00FE5E9C /* Frameworks */,
+				75FB6B22302E167B00FE5E9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FB6B22302E167B00FE5E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FB6B21302E167B00FE5E9C /* iPhoneBulutDosya.app */,
+				75FB6B31302E167D00FE5E9C /* iPhoneBulutDosyaTests.xctest */,
+				75FB6B3B302E167D00FE5E9C /* iPhoneBulutDosyaUITests.xctest */,
+				75FB6B55302E1B3F00FE5E9C /* BulutFileProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FB6B56302E1B3F00FE5E9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75FB6B57302E1B3F00FE5E9C /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FB6B20302E167B00FE5E9C /* iPhoneBulutDosya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FB6B45302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosya" */;
+			buildPhases = (
+				75FB6B1D302E167B00FE5E9C /* Sources */,
+				75FB6B1E302E167B00FE5E9C /* Frameworks */,
+				75FB6B1F302E167B00FE5E9C /* Resources */,
+				75FB6B69302E1B4000FE5E9C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FB6B63302E1B4000FE5E9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75FB6B23302E167B00FE5E9C /* iPhoneBulutDosya */,
+			);
+			name = iPhoneBulutDosya;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosya;
+			productReference = 75FB6B21302E167B00FE5E9C /* iPhoneBulutDosya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FB6B30302E167D00FE5E9C /* iPhoneBulutDosyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FB6B48302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaTests" */;
+			buildPhases = (
+				75FB6B2D302E167D00FE5E9C /* Sources */,
+				75FB6B2E302E167D00FE5E9C /* Frameworks */,
+				75FB6B2F302E167D00FE5E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FB6B33302E167D00FE5E9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75FB6B34302E167D00FE5E9C /* iPhoneBulutDosyaTests */,
+			);
+			name = iPhoneBulutDosyaTests;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosyaTests;
+			productReference = 75FB6B31302E167D00FE5E9C /* iPhoneBulutDosyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75FB6B3A302E167D00FE5E9C /* iPhoneBulutDosyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FB6B4B302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaUITests" */;
+			buildPhases = (
+				75FB6B37302E167D00FE5E9C /* Sources */,
+				75FB6B38302E167D00FE5E9C /* Frameworks */,
+				75FB6B39302E167D00FE5E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FB6B3D302E167D00FE5E9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75FB6B3E302E167D00FE5E9C /* iPhoneBulutDosyaUITests */,
+			);
+			name = iPhoneBulutDosyaUITests;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosyaUITests;
+			productReference = 75FB6B3B302E167D00FE5E9C /* iPhoneBulutDosyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		75FB6B54302E1B3F00FE5E9C /* BulutFileProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FB6B66302E1B4000FE5E9C /* Build configuration list for PBXNativeTarget "BulutFileProvider" */;
+			buildPhases = (
+				75FB6B51302E1B3F00FE5E9C /* Sources */,
+				75FB6B52302E1B3F00FE5E9C /* Frameworks */,
+				75FB6B53302E1B3F00FE5E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				75FB6B59302E1B4000FE5E9C /* BulutFileProvider */,
+			);
+			name = BulutFileProvider;
+			packageProductDependencies = (
+			);
+			productName = BulutFileProvider;
+			productReference = 75FB6B55302E1B3F00FE5E9C /* BulutFileProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FB6B19302E167B00FE5E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					75FB6B20302E167B00FE5E9C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					75FB6B30302E167D00FE5E9C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 75FB6B20302E167B00FE5E9C;
+					};
+					75FB6B3A302E167D00FE5E9C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 75FB6B20302E167B00FE5E9C;
+					};
+					75FB6B54302E1B3F00FE5E9C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 75FB6B1C302E167B00FE5E9C /* Build configuration list for PBXProject "iPhoneBulutDosya" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75FB6B18302E167B00FE5E9C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75FB6B22302E167B00FE5E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FB6B20302E167B00FE5E9C /* iPhoneBulutDosya */,
+				75FB6B30302E167D00FE5E9C /* iPhoneBulutDosyaTests */,
+				75FB6B3A302E167D00FE5E9C /* iPhoneBulutDosyaUITests */,
+				75FB6B54302E1B3F00FE5E9C /* BulutFileProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FB6B1F302E167B00FE5E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B2F302E167D00FE5E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B39302E167D00FE5E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B53302E1B3F00FE5E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FB6B1D302E167B00FE5E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B2D302E167D00FE5E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B37302E167D00FE5E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FB6B51302E1B3F00FE5E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75FB6B33302E167D00FE5E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FB6B20302E167B00FE5E9C /* iPhoneBulutDosya */;
+			targetProxy = 75FB6B32302E167D00FE5E9C /* PBXContainerItemProxy */;
+		};
+		75FB6B3D302E167D00FE5E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FB6B20302E167B00FE5E9C /* iPhoneBulutDosya */;
+			targetProxy = 75FB6B3C302E167D00FE5E9C /* PBXContainerItemProxy */;
+		};
+		75FB6B63302E1B4000FE5E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FB6B54302E1B3F00FE5E9C /* BulutFileProvider */;
+			targetProxy = 75FB6B62302E1B4000FE5E9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75FB6B43302E167D00FE5E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75FB6B44302E167D00FE5E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75FB6B46302E167D00FE5E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iPhoneBulutDosya/iPhoneBulutDosya.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneBulutDosya/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FB6B47302E167D00FE5E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iPhoneBulutDosya/iPhoneBulutDosya.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneBulutDosya/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75FB6B49302E167D00FE5E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneBulutDosya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneBulutDosya";
+			};
+			name = Debug;
+		};
+		75FB6B4A302E167D00FE5E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneBulutDosya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneBulutDosya";
+			};
+			name = Release;
+		};
+		75FB6B4C302E167D00FE5E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneBulutDosya;
+			};
+			name = Debug;
+		};
+		75FB6B4D302E167D00FE5E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneBulutDosya;
+			};
+			name = Release;
+		};
+		75FB6B67302E1B4000FE5E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BulutFileProvider/BulutFileProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulutFileProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BulutFileProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosya.BulutFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FB6B68302E1B4000FE5E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BulutFileProvider/BulutFileProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulutFileProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BulutFileProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosya.BulutFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FB6B1C302E167B00FE5E9C /* Build configuration list for PBXProject "iPhoneBulutDosya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6B43302E167D00FE5E9C /* Debug */,
+				75FB6B44302E167D00FE5E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB6B45302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6B46302E167D00FE5E9C /* Debug */,
+				75FB6B47302E167D00FE5E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB6B48302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6B49302E167D00FE5E9C /* Debug */,
+				75FB6B4A302E167D00FE5E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB6B4B302E167D00FE5E9C /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6B4C302E167D00FE5E9C /* Debug */,
+				75FB6B4D302E167D00FE5E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB6B66302E1B4000FE5E9C /* Build configuration list for PBXNativeTarget "BulutFileProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6B67302E1B4000FE5E9C /* Debug */,
+				75FB6B68302E1B4000FE5E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75FB6B19302E167B00FE5E9C /* Project object */;
+}

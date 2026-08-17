@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75528CFF302B03F7007DCE3F /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75528CFE302B03F7007DCE3F /* UniformTypeIdentifiers.framework */; };
+		75528D0B302B03F8007DCE3F /* BulutFileProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75528CFC302B03F7007DCE3F /* BulutFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75528D09302B03F8007DCE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755B6073302A477D00347B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75528CFB302B03F7007DCE3F;
+			remoteInfo = BulutFileProvider;
+		};
+		755B608C302A477E00347B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755B6073302A477D00347B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755B607A302A477D00347B5B;
+			remoteInfo = iPhoneBulutDosyaSenkronizasyon;
+		};
+		755B6096302A477E00347B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755B6073302A477D00347B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755B607A302A477D00347B5B;
+			remoteInfo = iPhoneBulutDosyaSenkronizasyon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75528D0C302B03F8007DCE3F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75528D0B302B03F8007DCE3F /* BulutFileProvider.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75528CFC302B03F7007DCE3F /* BulutFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BulutFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		75528CFE302B03F7007DCE3F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		755B607B302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneBulutDosyaSenkronizasyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755B608B302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneBulutDosyaSenkronizasyonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755B6095302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneBulutDosyaSenkronizasyonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		75528D16302B0606007DCE3F /* Exceptions for "iPhoneBulutDosyaSenkronizasyon" folder in "BulutFileProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Dosya.swift,
+				Models/DosyaGuncelleModel.swift,
+				Models/DosyaIndirModel.swift,
+				Models/DosyaOlusturModel.swift,
+				Models/DosyaSilModel.swift,
+				Models/DosyaTasiModel.swift,
+				Models/Klasor.swift,
+				Models/KlasorGuncelleModel.swift,
+				Models/KlasorOlusturModel.swift,
+				Models/KlasorSilModel.swift,
+				Models/KlasorTasiModel.swift,
+				Models/KlasorVeDosyaIslemleriDonenSonuc.swift,
+				Models/Kullanici.swift,
+				Models/Ticket.swift,
+				Services/APIService.swift,
+				Services/KeychainService.swift,
+				Utils/APIHatasi.swift,
+			);
+			target = 75528CFB302B03F7007DCE3F /* BulutFileProvider */;
+		};
+		75B58C53302C5A22006F41E9 /* Exceptions for "BulutFileProvider" folder in "BulutFileProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 75528CFB302B03F7007DCE3F /* BulutFileProvider */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		75528D00302B03F7007DCE3F /* BulutFileProvider */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75B58C53302C5A22006F41E9 /* Exceptions for "BulutFileProvider" folder in "BulutFileProvider" target */,
+			);
+			path = BulutFileProvider;
+			sourceTree = "<group>";
+		};
+		755B607D302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75528D16302B0606007DCE3F /* Exceptions for "iPhoneBulutDosyaSenkronizasyon" folder in "BulutFileProvider" target */,
+			);
+			path = iPhoneBulutDosyaSenkronizasyon;
+			sourceTree = "<group>";
+		};
+		755B608E302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneBulutDosyaSenkronizasyonTests;
+			sourceTree = "<group>";
+		};
+		755B6098302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneBulutDosyaSenkronizasyonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75528CF9302B03F7007DCE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75528CFF302B03F7007DCE3F /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6078302A477D00347B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6088302A477E00347B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6092302A477E00347B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75528CFD302B03F7007DCE3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75528CFE302B03F7007DCE3F /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		755B6072302A477D00347B5B = {
+			isa = PBXGroup;
+			children = (
+				755B607D302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */,
+				755B608E302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests */,
+				755B6098302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests */,
+				75528D00302B03F7007DCE3F /* BulutFileProvider */,
+				75528CFD302B03F7007DCE3F /* Frameworks */,
+				755B607C302A477D00347B5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755B607C302A477D00347B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755B607B302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon.app */,
+				755B608B302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests.xctest */,
+				755B6095302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests.xctest */,
+				75528CFC302B03F7007DCE3F /* BulutFileProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75528CFB302B03F7007DCE3F /* BulutFileProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75528D10302B03F8007DCE3F /* Build configuration list for PBXNativeTarget "BulutFileProvider" */;
+			buildPhases = (
+				75528CF8302B03F7007DCE3F /* Sources */,
+				75528CF9302B03F7007DCE3F /* Frameworks */,
+				75528CFA302B03F7007DCE3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				75528D00302B03F7007DCE3F /* BulutFileProvider */,
+			);
+			name = BulutFileProvider;
+			packageProductDependencies = (
+			);
+			productName = BulutFileProvider;
+			productReference = 75528CFC302B03F7007DCE3F /* BulutFileProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		755B607A302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755B609F302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyon" */;
+			buildPhases = (
+				755B6077302A477D00347B5B /* Sources */,
+				755B6078302A477D00347B5B /* Frameworks */,
+				755B6079302A477D00347B5B /* Resources */,
+				75528D0C302B03F8007DCE3F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75528D0A302B03F8007DCE3F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				755B607D302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */,
+			);
+			name = iPhoneBulutDosyaSenkronizasyon;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosyaSenkronizasyon;
+			productReference = 755B607B302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		755B608A302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755B60A2302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyonTests" */;
+			buildPhases = (
+				755B6087302A477E00347B5B /* Sources */,
+				755B6088302A477E00347B5B /* Frameworks */,
+				755B6089302A477E00347B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755B608D302A477E00347B5B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				755B608E302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests */,
+			);
+			name = iPhoneBulutDosyaSenkronizasyonTests;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosyaSenkronizasyonTests;
+			productReference = 755B608B302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		755B6094302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755B60A5302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyonUITests" */;
+			buildPhases = (
+				755B6091302A477E00347B5B /* Sources */,
+				755B6092302A477E00347B5B /* Frameworks */,
+				755B6093302A477E00347B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755B6097302A477E00347B5B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				755B6098302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests */,
+			);
+			name = iPhoneBulutDosyaSenkronizasyonUITests;
+			packageProductDependencies = (
+			);
+			productName = iPhoneBulutDosyaSenkronizasyonUITests;
+			productReference = 755B6095302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755B6073302A477D00347B5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					75528CFB302B03F7007DCE3F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					755B607A302A477D00347B5B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					755B608A302A477E00347B5B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 755B607A302A477D00347B5B;
+					};
+					755B6094302A477E00347B5B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 755B607A302A477D00347B5B;
+					};
+				};
+			};
+			buildConfigurationList = 755B6076302A477D00347B5B /* Build configuration list for PBXProject "iPhoneBulutDosyaSenkronizasyon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 755B6072302A477D00347B5B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 755B607C302A477D00347B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755B607A302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */,
+				755B608A302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonTests */,
+				755B6094302A477E00347B5B /* iPhoneBulutDosyaSenkronizasyonUITests */,
+				75528CFB302B03F7007DCE3F /* BulutFileProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75528CFA302B03F7007DCE3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6079302A477D00347B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6089302A477E00347B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6093302A477E00347B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75528CF8302B03F7007DCE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6077302A477D00347B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6087302A477E00347B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B6091302A477E00347B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75528D0A302B03F8007DCE3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75528CFB302B03F7007DCE3F /* BulutFileProvider */;
+			targetProxy = 75528D09302B03F8007DCE3F /* PBXContainerItemProxy */;
+		};
+		755B608D302A477E00347B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 755B607A302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */;
+			targetProxy = 755B608C302A477E00347B5B /* PBXContainerItemProxy */;
+		};
+		755B6097302A477E00347B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 755B607A302A477D00347B5B /* iPhoneBulutDosyaSenkronizasyon */;
+			targetProxy = 755B6096302A477E00347B5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75528D0D302B03F8007DCE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BulutFileProvider/BulutFileProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulutFileProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BulutFileProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyon.BulutFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75528D0E302B03F8007DCE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BulutFileProvider/BulutFileProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulutFileProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BulutFileProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyon.BulutFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		755B609D302A477E00347B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		755B609E302A477E00347B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755B60A0302A477E00347B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iPhoneBulutDosyaSenkronizasyon/iPhoneBulutDosyaSenkronizasyon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneBulutDosyaSenkronizasyon/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		755B60A1302A477E00347B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iPhoneBulutDosyaSenkronizasyon/iPhoneBulutDosyaSenkronizasyon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneBulutDosyaSenkronizasyon/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ9HRQ6MRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		755B60A3302A477E00347B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneBulutDosyaSenkronizasyon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneBulutDosyaSenkronizasyon";
+			};
+			name = Debug;
+		};
+		755B60A4302A477E00347B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneBulutDosyaSenkronizasyon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneBulutDosyaSenkronizasyon";
+			};
+			name = Release;
+		};
+		755B60A6302A477E00347B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneBulutDosyaSenkronizasyon;
+			};
+			name = Debug;
+		};
+		755B60A7302A477E00347B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysekoca.iPhoneBulutDosyaSenkronizasyonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneBulutDosyaSenkronizasyon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75528D10302B03F8007DCE3F /* Build configuration list for PBXNativeTarget "BulutFileProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75528D0D302B03F8007DCE3F /* Debug */,
+				75528D0E302B03F8007DCE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755B6076302A477D00347B5B /* Build configuration list for PBXProject "iPhoneBulutDosyaSenkronizasyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B609D302A477E00347B5B /* Debug */,
+				755B609E302A477E00347B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755B609F302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B60A0302A477E00347B5B /* Debug */,
+				755B60A1302A477E00347B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755B60A2302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B60A3302A477E00347B5B /* Debug */,
+				755B60A4302A477E00347B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755B60A5302A477E00347B5B /* Build configuration list for PBXNativeTarget "iPhoneBulutDosyaSenkronizasyonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B60A6302A477E00347B5B /* Debug */,
+				755B60A7302A477E00347B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755B6073302A477D00347B5B /* Project object */;
+}
